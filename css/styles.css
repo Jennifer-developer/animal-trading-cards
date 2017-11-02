@@ -1,8 +1,61 @@
 /* add your CSS here */
 h3 {
-  color: red;
+  color: #fcffc3;
+  font-style: unset;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1em 1em 5px 1em;
 }
 
-.try {
-  color: red;
+.fact {
+  font-style: italic;
+}
+
+.label {
+  font-weight: bold;
+  color:#333635;
+}
+
+ul {
+  list-style: none;
+}
+
+.info {
+  border: medium outset rgba(255, 255, 255, 0.5);
+  padding: 2px 1em 2px 1em;
+  width: 280px;
+  height: 300px fixed;
+  display: block;
+  margin: 10px 1em 5px 1.4em;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #3a3a3a;
+  box-shadow: 10px 10px 5px #888888;
+  position: fixed;
+}
+
+.img {
+  background-color:#fcffc3;
+  border: outset;
+  border-color:#fcffc3;
+  padding: 5px 1em 5px 1em;
+  margin: 2em 1em 5px 1.4em;
+  width: 280px;
+  height: 300px fixed;
+  display: block;
+  /*box-shadow: 10px 10px 5px #888888;*/
+  position: relative;
+}
+
+body {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  width:375px;
+  height: 633px;
+  background-color: rgb(95, 159, 198);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
 }
